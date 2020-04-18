@@ -51,7 +51,7 @@ export default function Home() {
   const botoLogo = {
     amagat:{
       opacity:0, 
-      y:10  
+      y:50 
       
     },
     visible:{      
