@@ -24,6 +24,19 @@ $dark: $fosc;
     width: 400px;
 }
 
+.container-logo{
+    
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    div{
+        margin-top: 2em;
+    }
+}
+
 .level-logo{
     justify-content: start;
 }

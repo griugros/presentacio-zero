@@ -50,11 +50,13 @@ export default function Home() {
 
   const botoLogo = {
     amagat:{
-      opacity:0   
+      opacity:0, 
+      y:10  
       
     },
     visible:{      
-      opacity:1,  
+      opacity:1, 
+      y:0, 
       transition:{
         delay: 1.5
       }
@@ -99,7 +101,7 @@ export default function Home() {
               </motion.p>           
             </motion.div>
           </div>
-          <div className="level level-logo">       
+            <div className="container container-logo">
               <motion.img 
                 id="logo-home-savies"
                 initial="amagat"
@@ -115,7 +117,7 @@ export default function Home() {
               >
                 <Link href="/presentacio"><a className="button is-primary">Veure la presentació</a></Link>
               </motion.div>
-           </div>
+            </div>
           </div>
         </div>
 

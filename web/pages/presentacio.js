@@ -33,7 +33,12 @@ function Presentacio() {
         <section className="hero is-warning">
             <div className="hero-body">
                 <div className="container">
-                    <motion.h1 className="title">
+                    <motion.h1 
+                         initial="amagat"
+                         animate="visible"
+                         exit="sortida"
+                         variants={titols}
+                        className="title">
                         Sàvies.cat
                     </motion.h1>
                     <h2 className="subtitle">
@@ -42,13 +47,23 @@ function Presentacio() {
                 </div>
             </div>
         </section>
-        <section className="container container-blog content">
-
-            <motion.h2>Esperit de Joc</motion.h2>
+        <section className="container container-blog">
+            <div className="content">
+            <motion.h2
+                initial="amagat"
+                animate="visible"
+                exit="sortida"
+                variants={titols}
+            >Esperit de Joc</motion.h2>
 
             <p>Sàvies.cat té esperit de joc. Sempre tendirà a la simplificació i a prioritzar l'usabilitat.</p>
 
-            <motion.h2>Categories</motion.h2>
+            <motion.h2
+                initial="amagat"
+                animate="visible"
+                exit="sortida"
+                variants={titols}
+            >Categories</motion.h2>
 
             <p>Els continguts de Sàvies.cat es divideixen en tres grans categories:</p>
             <ul>
@@ -58,7 +73,12 @@ function Presentacio() {
             </ul>
             <p>Tots els reptes, col.leccions i entrevistes quedaran organitzats sota aquestes grans categories.</p>
 
-            <h2>Continguts</h2>
+            <motion.h2
+                 initial="amagat"
+                 animate="visible"
+                 exit="sortida"
+                 variants={titols}
+            >Continguts</motion.h2>
 
             <p>Inicialment, Sàvies.cat comptarà amb tres tipus de continguts:</p>
             <ul>
@@ -67,11 +87,21 @@ function Presentacio() {
                 <li>Col·leccions: Conjunts de reptes relacionats amb esdeveniments o productes culturals concrets.</li>
             </ul>
 
-            <h2>Valors</h2>
+            <motion.h2
+                 initial="amagat"
+                 animate="visible"
+                 exit="sortida"
+                 variants={titols}
+            >Valors</motion.h2>
 
             <p>Sense privacitat no hi ha llibertat. Sempre treballarem per implementar i divulgar accions que empoderin les persones.</p>
 
-            <h2>Full de ruta</h2>
+            <motion.h2
+                 initial="amagat"
+                 animate="visible"
+                 exit="sortida"
+                 variants={titols}
+            >Full de ruta</motion.h2>
 
             <p>Aquests són els passos a seguir:</p>
 
@@ -83,7 +113,7 @@ function Presentacio() {
                 <li>Obertura de l'apartat de producció de reptes a la comunitat.</li>
             </ol>
 
-
+            </div>
         </section>
         <section>
             <NavFooter />
