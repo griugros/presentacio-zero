@@ -1,0 +1,38 @@
+// Aquí els meus parcials
+@import "./parcials/colors";
+
+//CUSTOMITZACIÓ COLORS BULMA: https://bulma.io/documentation/customize/variables/
+
+$success:$savies;
+$primary:$terra;
+$info:$progres;
+$danger:$poble;
+$dark: $fosc;
+
+//Importo el Bulma sencer. Info => https://bulma.io/
+@import "../node_modules/bulma/bulma.sass";
+
+
+.container-blog{
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+// Inici
+
+#logo-home-savies{
+    width: 400px;
+}
+
+.level-logo{
+    justify-content: start;
+}
+
+
+
+
+// Organització
+
+.subtitle-organitzacio{
+    padding-top: 1em;
+}
