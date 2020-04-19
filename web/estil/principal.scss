@@ -21,10 +21,11 @@ $dark: $fosc;
     min-height: 300px;
    max-width: 600px;
    max-height: 600px;
+   overflow: hidden;
 }
 
 .container-logo{
-    
+   
     margin-top: 2em;
     display: flex;    
     flex-direction: column;

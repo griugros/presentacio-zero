@@ -82,7 +82,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico?v=4" />
       </Head>
       <section className="hero is-fullheight is-success">
-        <div className="hero-body">   
+        <div className="hero-body" style={{overflow:"hidden"}}>   
         <div className="container">  
           
            <div className="level">
