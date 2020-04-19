@@ -2,6 +2,10 @@ import Head from 'next/head';
 import NavFooter from '../components/NavFooter';
 import { motion } from 'framer-motion';
 
+// Components
+
+import Mh from '../components/animacions/Mh';
+import Mp from '../components/animacions/Mp';
 
 function Presentacio() {
 
@@ -33,52 +37,30 @@ function Presentacio() {
         <section className="hero is-warning">
             <div className="hero-body">
                 <div className="container">
-                    <motion.h1
-                        initial="amagat"
-                        animate="visible"
-                        exit="sortida"
-                        variants={titols}
-                        className="title">
-                        Sàvies.cat
-                    </motion.h1>
+                    <Mh h="3">Sàvies.cat</Mh>
                     <h2 className="subtitle">
                         Què és?
                      </h2>
                 </div>
             </div>
         </section>
-        <section className="container container-blog">
-            <div className="container content">
-                <motion.h2
-                    initial="amagat"
-                    animate="visible"
-                    exit="sortida"
-                    variants={titols}
-                >Esperit de Joc</motion.h2>
+        <section className="section">
+            <div className="container content"> 
 
-                <p>Sàvies.cat té esperit de joc. Sempre tendirà a la simplificació i a prioritzar l'usabilitat.</p>
+                <Mh h="4">Esperit de Joc</Mh> 
+                <Mp>Sàvies.cat té esperit de joc. Sempre tendirà a la simplificació i a prioritzar l'usabilitat.</Mp>
 
-                <motion.h2
-                    initial="amagat"
-                    animate="visible"
-                    exit="sortida"
-                    variants={titols}
-                >Categories</motion.h2>
+                <Mh h="4">Categories</Mh> 
 
-                <p>Els continguts de Sàvies.cat es divideixen en tres grans categories:</p>
-                <ul>
-                    <li>Terra</li>
-                    <li>Poble</li>
-                    <li>Progrés</li>
+                <Mp>Els continguts de Sàvies.cat es divideixen en tres grans categories:</Mp>
+                <ul className="presentacio-llista-categories">
+                    <li><div className="es-terra">Terra</div></li>
+                    <li><div className="es-poble">Poble</div></li>
+                    <li><div className="es-progres">Progrés</div></li>
                 </ul>
-                <p>Tots els reptes, col.leccions i entrevistes quedaran organitzats sota aquestes grans categories.</p>
+                <Mp>Tots els reptes, col.leccions i entrevistes quedaran organitzats sota aquestes grans categories.</Mp>
 
-                <motion.h2
-                    initial="amagat"
-                    animate="visible"
-                    exit="sortida"
-                    variants={titols}
-                >Continguts</motion.h2>
+                <Mh h="4">Continguts</Mh> 
 
                 <p>Inicialment, Sàvies.cat comptarà amb tres tipus de continguts:</p>
                 <ul>
@@ -87,23 +69,13 @@ function Presentacio() {
                     <li>Col·leccions: Conjunts de reptes relacionats amb esdeveniments o productes culturals concrets.</li>
                 </ul>
 
-                <motion.h2
-                    initial="amagat"
-                    animate="visible"
-                    exit="sortida"
-                    variants={titols}
-                >Valors</motion.h2>
+                <Mh h="4">Valors</Mh> 
 
                 <p>Sense privacitat no hi ha llibertat. Sempre treballarem per implementar i divulgar accions que empoderin les persones.</p>
 
-                <motion.h2
-                    initial="amagat"
-                    animate="visible"
-                    exit="sortida"
-                    variants={titols}
-                >Full de ruta</motion.h2>
+                <Mh h="4">Full de ruta</Mh> 
 
-                <p>Aquests són els passos a seguir:</p>
+                <Mp>Aquests són els passos a seguir:</Mp>
 
                 <ol>
                     <li>Crear la infraestructura bàsica per poder produir Entrevistes i Reptes.</li>
@@ -113,20 +85,16 @@ function Presentacio() {
                     <li>Obertura de l'apartat de producció de reptes a la comunitat.</li>
                 </ol>
 
-                <motion.h2
-                    initial="amagat"
-                    animate="visible"
-                    exit="sortida"
-                    variants={titols}
-                >Stack</motion.h2>
+                <Mh h="4">Stack</Mh> 
 
-                <p>Treballem amb aquest stack:</p>
+                <Mp>Treballem amb aquest stack:</Mp>
 
                 <ol>                    
                     <li>Nextjs</li>
                     <li>Strapi</li>
-                </ol>
-
+                    <li>Bulma(scss)</li>
+                    <li>Framer Motion</li>
+                </ol>               
             </div>
         </section>
         <section>
