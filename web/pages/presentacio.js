@@ -9,26 +9,6 @@ import Mp from '../components/animacions/Mp';
 
 function Presentacio() {
 
-    const titols = {
-
-        amagat: {
-            opacity: 0,
-            x: -5
-
-        },
-        visible: {
-            opacity: 1,
-            x: 0,
-            transition: {
-                duration: 0.5
-            }
-        },
-        sortida: {
-            opacity: 0
-        }
-
-    }
-
     return (<div>
         <Head>
             <title>Sàvies.cat - Organització</title>
@@ -94,7 +74,14 @@ function Presentacio() {
                     <li>Strapi</li>
                     <li>Bulma(scss)</li>
                     <li>Framer Motion</li>
-                </ol>               
+                </ol>    
+
+                <Mh h="4">Sense ànim de lucre</Mh>
+
+                <p>Aquest projecte és sense ànim de lucre. Els costos de manteniment són assumits per l'<a className="griuGros" href="http://ipfs.io/ipns/QmR7wbEoXbwJPDMF86X3MKFNpiBLcdHMg6qdFCFjbyEdUy" target="_blank">Associació Cultural Griu Gros</a> (G-66745555)</p> 
+
+               
+
             </div>
         </section>
         <section>

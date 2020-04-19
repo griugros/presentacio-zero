@@ -66,7 +66,7 @@ export default function Objectius() {
                                     Crear eines per la producció i distribució de micro continguts
                                 </motion.li>   
                                 <motion.li variants={item} className="subtitle">
-                                    Esdevenir un punt de trobada per persones inquietes
+                                    Esdevenir un punt de trobada i cocreació de persones inquietes
                                 </motion.li>   
                                 <motion.li variants={item} className="subtitle">
                                     Donar visibilitat a persones rellevants
