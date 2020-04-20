@@ -16,7 +16,7 @@ class Presentacio extends App {
     const { Component, pageProps, router } = this.props;
     return (
       <AnimatePresence exitBeforeEnter>
-        <Component {...pageProps} key={router.route} />
+        <Component {...pageProps} key={router.route} />       
       </AnimatePresence>
     );
   }

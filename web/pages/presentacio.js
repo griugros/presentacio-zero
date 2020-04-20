@@ -46,7 +46,7 @@ function Presentacio() {
                 <ul>
                     <li>Reptes: Inicialment es limitaran a preguntes de resposta múltiple.</li>
                     <li>Entrevistes a persones a rellevants que inclouran un repte creat per les mateixes.</li>
-                    <li>Col·leccions: Conjunts de reptes relacionats amb esdeveniments o productes culturals concrets.</li>
+                    <li>Maletes: Conjunts de recursos i reptes relacionats amb temàtiques, esdeveniments o productes culturals concrets.</li>
                 </ul>
 
                 <Mh h="4">Valors</Mh> 
@@ -60,7 +60,7 @@ function Presentacio() {
                 <ol>
                     <li>Crear la infraestructura bàsica per poder produir Entrevistes i Reptes.</li>
                     <li>Organitzar la redacció i iniciar el procés de producció d'entrevistes.</li>
-                    <li>Produir algunes col·leccions inicials.</li>
+                    <li>Produir algunes maletes inicials.</li>
                     <li>Implementar un sistema de monitorització de l'activitat a la plataforma respectuós amb la llibertat individual de les persones.</li>
                     <li>Obertura de l'apartat de producció de reptes a la comunitat.</li>
                 </ol>
