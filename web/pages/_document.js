@@ -13,12 +13,12 @@ class MyDocument extends Document {
       <Html lang="ca">
         <Head/>           
         <body>
+          <img src="https://vicesalles.me/analytics/matomo.php?idsite=3&amp;rec=1" style={{top:0,left:0, width:1, border:0, position:"fixed", zIndex:9}} alt="" />
           <Main />
-          <NextScript />
-            <img src="https://vicesalles.me/analytics/matomo.php?idsite=3&amp;rec=1" style={{top:0,postion:"fixed", border:0, zIndex:900}} alt="" />
+          <NextScript />            
           <noscript>
-           <img src="https://vicesalles.me/analytics/matomo.php?idsite=3&amp;rec=1" style={{top:0,postion:"fixed", border:0, zIndex:900}} alt="" />
-          </noscript>         
+           <img src="https://vicesalles.me/analytics/matomo.php?idsite=3&amp;rec=1" style={{top:0, postion:"fixed", border:0, zIndex:900}} alt="" />
+          </noscript>        
           
         </body>
       </Html>
