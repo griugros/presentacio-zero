@@ -78,8 +78,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sàvies.cat</title>
+        <title>Què és Sàvies.cat?</title>
         <link rel="icon" href="/favicon.ico?v=4" />
+        {/* Tags Facebook*/}
+        <meta property="og:url"                content="https://presentacio-savies.now.sh/" />
+        <meta property="og:type"               content="web" />
+        <meta property="og:title"              content="Què és Sàvies.cat?" />
+        <meta property="og:description"        content="Sàvies és una plataforma divulgativa d'educació en el lleure." />
+        <meta property="og:image"              content="https://presentacio-savies.now.sh/img/fons_savies.png" />
+        {/* Tags Twitter*/}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@somsavies" />        
       </Head>
       <section className="hero is-fullheight is-success">
         <div className="hero-body" style={{overflow:"hidden"}}>   
